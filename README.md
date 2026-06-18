@@ -1,20 +1,25 @@
-# Angular Basics — Conceitos Básicos
+# Angular Basics
 
-This repository contains a small Angular 19 project created to demonstrate basic Angular concepts and component patterns. It is intended for learning and experimentation.
+This repository was created to document my first studies and experiments with Angular 19.
 
-## Features
+## 📚 Topics Covered
 
-- Simple standalone components (HelloWorld, Calculadora, Lista Compras, MinhaPagina)
-- Component-scoped SCSS styles
-- Basic form handling and table display
-- Lightweight structure for hands-on practice
+- Standalone Components
+- Interpolation
+- Property Binding
+- Event Binding
+- Form Handling
+- List Rendering
+- SCSS Styling
 
-## Prerequisites
+## 🧩 Components Developed
 
-- Node.js 18+ and npm
-- (Optional) Angular CLI for global tooling
+- HelloWorld
+- Calculator
+- Shopping List
+- My Page
 
-## Setup
+## 🚀 Running the Project
 
 Install dependencies:
 
@@ -25,39 +30,22 @@ npm install
 Start the development server:
 
 ```bash
-npm start
+ng serve
 ```
 
-The CLI may pick an alternative port if `4200` is already in use — check the terminal output for the actual URL.
+The application will be available at:
 
-Build for production:
-
-```bash
-npm run build
+```text
+http://localhost:4200
 ```
 
-## Project structure (key files)
+## 🛠️ Technologies
 
-- `src/app/app.component.ts` — root component (standalone)
-- `src/app/helloworld` — `HelloworldComponent`
-- `src/app/calculadora` — `CalculadoraComponent`
-- `src/app/lista-compras` — `ListaComprasComponent` (shopping list example)
-- `src/app/minhapagina` — `MinhapaginaComponent`
-- `src/styles.scss` — global styles
+- Angular 19
+- TypeScript
+- SCSS
+- Angular CLI
 
-## Notes
+## 🎯 Purpose
 
-- The project uses Angular 19 and standalone components (`standalone: true`).
-- Component styles are written in SCSS and declared via `styleUrls`.
-
-## Contributing
-
-This repository is educational. Small improvements, fixes, and clarifications are welcome.
-
-## License
-
-This project is provided as an educational sample. Add an appropriate license if you publish or distribute it.
-
----
-
-If you want, I can also add a short usage guide or screenshots — tell me which sections to expand.
+This project is part of my learning journey in Angular and front-end development. It will be updated as I explore new concepts and build more features.
