@@ -1,59 +1,63 @@
-# ConceitosBasicos
+# Angular Basics — Conceitos Básicos
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+This repository contains a small Angular 19 project created to demonstrate basic Angular concepts and component patterns. It is intended for learning and experimentation.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- Simple standalone components (HelloWorld, Calculadora, Lista Compras, MinhaPagina)
+- Component-scoped SCSS styles
+- Basic form handling and table display
+- Lightweight structure for hands-on practice
 
-```bash
-ng serve
-```
+## Prerequisites
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Node.js 18+ and npm
+- (Optional) Angular CLI for global tooling
 
-## Code scaffolding
+## Setup
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Install dependencies:
 
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
+Start the development server:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The CLI may pick an alternative port if `4200` is already in use — check the terminal output for the actual URL.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Build for production:
 
 ```bash
-ng test
+npm run build
 ```
 
-## Running end-to-end tests
+## Project structure (key files)
 
-For end-to-end (e2e) testing, run:
+- `src/app/app.component.ts` — root component (standalone)
+- `src/app/helloworld` — `HelloworldComponent`
+- `src/app/calculadora` — `CalculadoraComponent`
+- `src/app/lista-compras` — `ListaComprasComponent` (shopping list example)
+- `src/app/minhapagina` — `MinhapaginaComponent`
+- `src/styles.scss` — global styles
 
-```bash
-ng e2e
-```
+## Notes
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- The project uses Angular 19 and standalone components (`standalone: true`).
+- Component styles are written in SCSS and declared via `styleUrls`.
 
-## Additional Resources
+## Contributing
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This repository is educational. Small improvements, fixes, and clarifications are welcome.
+
+## License
+
+This project is provided as an educational sample. Add an appropriate license if you publish or distribute it.
+
+---
+
+If you want, I can also add a short usage guide or screenshots — tell me which sections to expand.
